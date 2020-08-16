@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Amigos" />
+        <item
+            android:id="@+id/indicaFragment"
+            android:icon="@drawable/ic_disc_black_24dp"
+            android:title="Indicações" />
+        <item
+            android:id="@+id/nav_solicitacoes"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Solicitações" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Configurações" />
+    </group>
+</menu>

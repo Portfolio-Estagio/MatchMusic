@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_login"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/cadastroFragment"
+        android:name="com.example.matchmusic.Fragments.CadastroFragment"
+        android:label="fragment_cadastro"
+        tools:layout="@layout/fragment_cadastro" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.matchmusic.Fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <!--<fragment
+        android:id="@+id/generoFragment"
+        android:name="com.example.testeprojeto.login.GeneroFragment"
+        android:label="fragment_genero"
+        tools:layout="@layout/fragment_genero" />-->
+</navigation>

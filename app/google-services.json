@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "550574531864",
+    "firebase_url": "https://matchmusicfb.firebaseio.com",
+    "project_id": "matchmusicfb",
+    "storage_bucket": "matchmusicfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550574531864:android:1079e494ed7394f40b6a6d",
+        "android_client_info": {
+          "package_name": "com.example.matchmusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550574531864-fc9kiht1fr8ev6o5fnikukpr6psbk16a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.matchmusic",
+            "certificate_hash": "80a80de2d0e0805c2b128b954f56b4616e732956"
+          }
+        },
+        {
+          "client_id": "550574531864-q8ej6q0ejkknjk63g7ouakrlvr2srmc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBfbIrE6MYZg6CVV3I2yrtu2IUMpj_p3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550574531864-q8ej6q0ejkknjk63g7ouakrlvr2srmc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

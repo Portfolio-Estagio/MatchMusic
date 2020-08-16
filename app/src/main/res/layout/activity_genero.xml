@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".GeneroActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:translationZ="1dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="90dp"
+                android:layout_height="54dp"
+                android:rotation="10"
+                android:src="@drawable/apknote"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/cshape_borders1"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Por favor insira um gênero musical"
+            android:textColor="@android:color/primary_text_dark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D6FFFFFF"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/Rock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rock"
+                app:useMaterialThemeColors="true" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/Pop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pop"
+                app:useMaterialThemeColors="true" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/Sertanejo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sertanejo"
+                app:useMaterialThemeColors="true" />
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/Funk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Funk"
+                app:useMaterialThemeColors="true" />
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/Forro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forró"
+                app:useMaterialThemeColors="true" />
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/Samba"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Samba"
+                app:useMaterialThemeColors="true" />
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/MPB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MPB"
+                app:useMaterialThemeColors="true" />
+
+            <View
+                android:id="@+id/divider9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/Eletronica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eletrônica"
+                app:useMaterialThemeColors="true" />
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <CheckBox
+                android:id="@+id/Pagode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pagode"
+                app:useMaterialThemeColors="true" />
+
+            <View
+                android:id="@+id/divider12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/GeneroButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entrar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".GeneroActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="325dp"
+        android:layout_height="351dp"
+        android:background="@drawable/round5dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.345" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="90dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Logo do aplicativo"
+        android:rotation="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/apknote" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:text="Bem-Vindo ao MatchMusic"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="3dp"
+        android:text="Selecione até 3 genêros que você mais gosta"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round5dp"
+        android:paddingLeft="13dp"
+        android:paddingTop="0dp"
+        android:paddingRight="13dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.37">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.19">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:padding="3dp">
+
+                <CheckBox
+                    android:id="@+id/MPB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MPB"
+                    android:textColor="#FFFFFF" />
+
+                <CheckBox
+                    android:id="@+id/Eletronica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Eletrônica"
+                    android:textColor="#FFFFFF" />
+
+                <CheckBox
+                    android:id="@+id/Pagode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pagode"
+                    android:textColor="#FFFFFF" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="3dp">
+
+                <CheckBox
+                    android:id="@+id/Rock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rock"
+                    android:textColor="#FFFFFF" />
+
+                <CheckBox
+                    android:id="@+id/Pop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pop"
+                    android:textColor="#FFFFFF" />
+
+                <CheckBox
+                    android:id="@+id/Sertanejo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sertanejo"
+                    android:textColor="#FFFFFF" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:padding="3dp">
+
+                <CheckBox
+                    android:id="@+id/Funk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Funk"
+                    android:textColor="#FFFFFF" />
+
+                <CheckBox
+                    android:id="@+id/Forro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forró"
+                    android:textColor="#FFFFFF" />
+
+                <CheckBox
+                    android:id="@+id/Samba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Samba"
+                    android:textColor="#FFFFFF" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/GeneroButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto"
+            android:text="Entrar"
+            app:layout_constraintEnd_toEndOf="@+id/tableLayout"
+            app:layout_constraintStart_toStartOf="@+id/tableLayout"
+            app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
