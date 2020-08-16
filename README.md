@@ -15,13 +15,13 @@ Indicação de musicas no aplicativo:
 ![image](https://user-images.githubusercontent.com/69728179/90338885-2aeccc00-dfc3-11ea-8c05-f3117ab29d4b.png)
 
 # Integrantes
-- Thamyres Rodrigues
-- Erik Stephanovich
-- Lucas Araújo
-- Filipe Araújo
+  - Thamyres Rodrigues
+  - Erik Stephanovich
+  - Lucas Araújo
+  - Filipe Araújo
 
 # PO
-Thamyres Rodrigues
+  - Thamyres Rodrigues
 
 # Funcionalidades/Product Backlog
 - Cadastrar usuário
