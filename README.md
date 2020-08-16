@@ -1,5 +1,5 @@
 # MatchMusic
-A aplicação sugere novas músicas ao usuário baseado nos seus gêneros preferidos e permite dar match em outros perfis cadastrados no aplicativo.
+É um aplicativo desenvolvido por estudantes, desenvolvido para um projeto de faculdade que sugere novas músicas ao usuário baseado nos seus gêneros preferidos e permite dar match em outros perfis cadastrados no aplicativo.
 
 # Status
 Incompleto
